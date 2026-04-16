@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "awp"
 version = "0.2.2"
 authors = [
-    { name = "Bluera Inc.", email = "bluera@bluera.ai" },
+    { name = "spacehendrix", email = "thespacehendrix@gmail.com" },
 ]
 description = "AWP Agentic Web Protocol"
 readme = "README.md"
@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/blueraai/agentic-web-protocol"
-"Bug Tracker" = "https://github.com/blueraai/agentic-web-protocol/issues"
+"Homepage" = "https://github.com/spacehendrix/agentic-web-protocol"
+"Bug Tracker" = "https://github.com/spacehendrix/agentic-web-protocol/issues"
 
 [project.optional-dependencies]
 community = [

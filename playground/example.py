@@ -1,6 +1,6 @@
-from universal_intelligence.community.agents.default import UniversalAgent as Agent  # https://github.com/blueraai/universal-intelligence
+from universal_intelligence.community.agents.default import UniversalAgent as Agent  # https://github.com/spacehendrix/universal-intelligence
 
-from awp import UniversalTool as AWP  # https://github.com/blueraai/awp
+from awp import UniversalTool as AWP  # https://github.com/spacehendrix/agentic-web-protocol
 from playground.__utils__ import formatted_print, html
 
 # 🤖 Simple Web agent (🧠 + 🔧)

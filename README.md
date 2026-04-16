@@ -1,14 +1,14 @@
 ![awp-banner](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//awp-banner-rsmrx.png)
 
 <p align="center">
-    <a href="https://github.com/blueraai/agentic-web-protocol/releases"><img alt="GitHub Release" src="https://img.shields.io/github/release/blueraai/agentic-web-protocol.svg?color=1c4afe"></a>
-    <a href="https://github.com/blueraai/agentic-web-protocol/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/blueraai/agentic-web-protocol.svg?color=00bf49"></a>
+    <a href="https://github.com/spacehendrix/agentic-web-protocol/releases"><img alt="GitHub Release" src="https://img.shields.io/github/release/spacehendrix/agentic-web-protocol.svg?color=1c4afe"></a>
+    <a href="https://github.com/spacehendrix/agentic-web-protocol/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/spacehendrix/agentic-web-protocol.svg?color=00bf49"></a>
     <a href="https://discord.gg/7g9SrEc5yT"><img alt="Discord" src="https://img.shields.io/badge/Join-Discord-7289DA?logo=discord&logoColor=white&color=4911ff"></a>
 </p>
 
 > ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-python-16.png) This page aims to document **Python** protocols and usage (e.g. cloud, desktop).
 >
-> Looking for [**Javascript/Typescript instructions**](https://github.com/blueraai/agentic-web-protocol/blob/main/README_WEB.md)?
+> Looking for [**Javascript/Typescript instructions**](https://github.com/spacehendrix/agentic-web-protocol/blob/main/README_WEB.md)?
 
 ## Overview
 
@@ -16,9 +16,9 @@ The `Agentic Web Protocol`, or `AWP`, *allows **AI agents** to reliably **unders
 
 It is composed of two protocols, for web pages and APIs, allowing them to be usable by AI agents.
 
-A standard [Universal Tool](https://github.com/blueraai/universal-intelligence) is also provided, for AI agents to be able to instantly leverage `AWP` compliant pages and APIs.
+A standard [Universal Tool](https://github.com/spacehendrix/universal-intelligence) is also provided, for AI agents to be able to instantly leverage `AWP` compliant pages and APIs.
 
-> 🤖 Discoverable Websites and APIs, for AI Agents interactions. [Bluera Inc.](https://bluera.ai)
+> 🤖 Discoverable Websites and APIs, for AI Agents interactions. [spacehendrix](https://spacehendrix.com)
 
 ## Get Started
 
@@ -55,7 +55,7 @@ Learn more about how to support `AWP`, by clicking the most appropriate option f
 
 ## Documentation
 
-> Would you rather [**chat with our docs**](https://wiki.bluera.ai)? 💬
+> Would you rather [**chat with our docs**](https://githubchat.spacehendrix.com/#url=https%3A%2F%2Fgithub.com%2Fspacehendrix%2Fagentic-web-protocol%2Fblob%2Fmain%2FREADME.md)? 💬
 > 
 > *Note: AI responses may include mistakes. Refer to the documentation below for sample code.*
 
@@ -229,9 +229,9 @@ Here is a simple example:
 
 ## AWP Tool
 
-This project also shares a [Universal Tool](https://github.com/blueraai/universal-intelligence) for your agents to be able **reliably understand and interact with the AWP compliant Web pages and APIs**.
+This project also shares a [Universal Tool](https://github.com/spacehendrix/universal-intelligence) for your agents to be able **reliably understand and interact with the AWP compliant Web pages and APIs**.
 
-> For more information about `Universal Tools`, see [◉ Universal Intelligence](https://github.com/blueraai/universal-intelligence)
+> For more information about `Universal Tools`, see [◉ Universal Intelligence](https://github.com/spacehendrix/universal-intelligence)
 
 ### Installation
 
@@ -262,7 +262,7 @@ api_doc = awp.parse_api(url)
 | `parse_html` | • `html: str`: HTML page to parse<br>• `format: str \| None = "YAML"`: Output format | `Any` | Parses all AWP `ai-*` and accessibility attributes on the page and returns a documentation in the requested format (YAML, JSON), usable by any AI agent to reliably understand and interact with that web page |
 | `parse_api` | • `url: str`: URL of the API to parse<br>• `authorization: str \| None = None`: Authentication header if required<br>• `format: str \| None = "YAML"`: Output format | `Any` | Calls the standard `/ai-handshake` endpoint of that API and returns an [OpenAPI](https://swagger.io/specification/) compliant documentation of that API in the requested format (YAML, JSON), usable by any AI agent to reliably understand and interact with that API |
 
-#### As [Universal Tool](https://github.com/blueraai/universal-intelligence)
+#### As [Universal Tool](https://github.com/spacehendrix/universal-intelligence)
 
 ```python
 from awp import UniversalTool as AWP
@@ -428,8 +428,8 @@ python -m playground.example
 
 ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-python-16.png) ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-javascript-16.png) The `AWP` tool can be used across **all platforms** (cloud, desktop, web, mobile).
 
-- ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-python-16.png) [How to use natively with `python` (cloud, desktop)](https://github.com/blueraai/agentic-web-protocol/blob/main/README.md)
-- ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-javascript-16.png) [How to use on the web, or in web-native apps, with `javascript/typescript` (cloud, desktop, web, mobile)](https://github.com/blueraai/agentic-web-protocol/blob/main/README_WEB.md)
+- ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-python-16.png) [How to use natively with `python` (cloud, desktop)](https://github.com/spacehendrix/agentic-web-protocol/blob/main/README.md)
+- ![lng_icon](https://fasplnlepuuumfjocrsu.supabase.co/storage/v1/object/public/web-assets//icons8-javascript-16.png) [How to use on the web, or in web-native apps, with `javascript/typescript` (cloud, desktop, web, mobile)](https://github.com/spacehendrix/agentic-web-protocol/blob/main/README_WEB.md)
 
 </details>
 
@@ -446,12 +446,11 @@ If you'd like to support to `agentic-web-protocol` here are a few ways to do so:
 - 💪 Use the [AWP Tool](https://pypi.org/project/awp/)
 - 💡 Help surfacing/resolving issues
 - 💭 Help shape the `AWP` specification
-- 🔧 Help maintain, test, enhance the [AWP Tool](https://github.com/blueraai/agentic-web-protocol/blob/main/awp/)
+- 🔧 Help maintain, test, enhance the [AWP Tool](https://github.com/spacehendrix/agentic-web-protocol/blob/main/awp/)
 - ✉️ Email us security concerns
 - ❤️ Sponsor this project on Github
-- 🤝 [Partner with Bluera](mailto:contact@bluera.ai)
 
 
 ## License
 
-Apache 2.0 License - [Bluera Inc.](https://bluera.ai)
+Apache 2.0 License - [spacehendrix](https://spacehendrix.com)
